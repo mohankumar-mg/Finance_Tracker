@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Finance Tracker</h1>
+    
+    <div class="form-container">
+        <h2>Add Expense</h2><br>
+        <label for="expense-name">Expense Name:</label>
+        <input type="text" id="expense-name" placeholder="Enter expense name">
+        <br><br><br>
+        <label for="expense-amount">Expense Amount:</label>
+        <input type="number" id="expense-amount" placeholder="Enter expense amount">
+        <br><br>
+        <button onclick="addExpense()">Add Expense</button>
+    </div>
+
+    <div class="form-container" style="text-align: center;">
+        <label for="budget">Budget:</label>
+        <span id="budget">$1000</span>
+    </div>
+
+    <div class="form-container">
+        <h2>Add Goal</h2><br>
+        <label for="goal-name">Goal Name:</label>
+        <input type="text" id="goal-name" placeholder="Enter goal name">
+        <br><br><br>
+        <label for="target-amount">Target Amount:</label>
+        <input type="number" id="target-amount" placeholder="Enter target amount">
+        
+        <button onclick="addGoal()">Add Goal</button>
+    </div>
+
+    <div class="expense-list">
+        <h2>Expense List</h2>
+        <ul id="expense-list-ul"></ul>
+    </div>
+
+    <div class="goals-list">
+        <h2>Goals</h2>
+        <ul id="goals-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url("Coins_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #f0f0f0; /* Fallback background color in case the image is not available */
+    
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+}
+
+h2{
+    color: #333;
+    text-align: center;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 40px auto;
+    max-width: 600px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 250px;
+    margin-top: 60px;
+    cursor: pointer;
+    
+}
+
+#expense-name{
+    height: 25px;
+    width: 210px;
+}
+
+#expense-amount{
+    height: 25px;
+    width: 200px;
+}
+
+#goal-name{
+    height: 25px;
+    width: 210px;
+}
+
+#target-amount{
+    height: 25px;
+    width: 210px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.expense-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Add styling for budget and goals */
+#budget {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.goals-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.goals-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.goals-list li {
+    margin: 5px 0;
+}
